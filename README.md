@@ -1,5 +1,5 @@
 # my personal [vim/nvim] config
-**a simple config for start vim with a nice theme and default config**
+**a default config for starting [neovim/vim] with a gruvbox theme**
 
 ## screenshots
 ![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/01.png)
