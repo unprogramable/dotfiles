@@ -59,11 +59,8 @@ set ignorecase        " ignore case when searching
 " info file
 if has('nvim')
     set viminfo+='10000,n~/.vim/tmp/.nvim.info
-endif
-
-if !has('nvim')
+   else
     set viminfo+='10000,n~/.vim/tmp/.vim-info
-    set nocompatible      " be iMproved
 endif
 
 
