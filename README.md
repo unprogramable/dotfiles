@@ -19,7 +19,7 @@
 1.**back up ur old** *~/.vim* **,** *~/.config/nvim* **folder**
 ```bash
 mv ~/.vim ~/.vim.bk
-mv ~/.conf/nvim ~/.conf/nvim.bk
+mv ~/.conf/nvim ~/.config/nvim.bk
 ```
 
 2.**clone dot files into** *~/.vim* **path**
