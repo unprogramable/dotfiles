@@ -1,14 +1,13 @@
 # my personal [vim/nvim] config
-**a default config for starting [neovim/vim] with a gruvbox theme**
+**a simple config for get starting with [neovim/vim] + gruvbox theme**
 
 ## screenshots
-![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/01.png)
-![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/02.png)
-![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/03.png)
-![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/04.png)
-![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/05.png)
-![alt text](https://raw.githubusercontent.com/unprogramable/dotfiles/screenshots/v1/6.png)
-
+![screenshot1](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/01.png)
+![screenshot2](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/02.png)
+![screenshot3](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/03.png)
+![screenshot4](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/04.png)
+![screenshot5](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/05.png)
+![screenshot6](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/06.png)
 
 ## install
 1.**back up ur old** *~/.vim* **,** *~/.conf/nvim* **folder**
@@ -42,5 +41,7 @@ cp conf.example.vim vimrc
 6.**restart and done**
 
 
-## docs for start
-**you can find some docs that help you to start easier**
+## docs for keybindings
+```bash
+~/.vim/core/docs/keybind.vim
+```
