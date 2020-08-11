@@ -33,7 +33,7 @@ ln -s ~/.vim ~/.config/nvim
 cp ~/.vim/conf.example.vim ~/.vim/init.vim
 ```
 
-3.**for vim:**
+3.**for vim**
 ```bash
 cp ~/.vim/conf.example.vim ~/.vim/vimrc
 ```
