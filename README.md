@@ -25,7 +25,6 @@ mv ~/.conf/nvim ~/.config/nvim.bk
 2.**clone dot files into** *~/.vim* **path**
 ```bash
 git clone --depth 1 https://github.com/unprogramable/dotfiles.git ~/.vim
-cd ~/.vim
 ```
 
 3.**for neovim run this command**
