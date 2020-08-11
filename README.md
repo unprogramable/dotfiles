@@ -1,28 +1,20 @@
 # my personal [vim/nvim] config
 
-**a simple config for get starting with [neovim/vim] + gruvbox theme**
+**a simple config for starting with [neovim/vim] + gruvbox theme**
 
 ## screenshots
 ![screenshot1](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/01.png)
 
-![screenshot2](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/02.png)
-
-![screenshot3](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/03.png)
-
-![screenshot4](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/04.png)
-
-![screenshot5](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/05.png)
-
 ![screenshot6](https://raw.githubusercontent.com/unprogramable/dotfiles/master/screenshots/v1/06.png)
 
 ## install
-1.**back up ur old** *~/.vim* **,** *~/.config/nvim* **folder**
+1.**back up ur old** *~/.vim* **,** *~/.config/nvim* **config**
 ```bash
 mv ~/.vim ~/.vim.bk
 mv ~/.conf/nvim ~/.config/nvim.bk
 ```
 
-2.**clone dot files into** *~/.vim* **path**
+2.**clone config into home directory** *~/.vim*
 ```bash
 git clone --depth 1 https://github.com/unprogramable/dotfiles.git ~/.vim
 ```
