@@ -27,25 +27,25 @@ mv ~/.conf/nvim ~/.config/nvim.bk
 git clone --depth 1 https://github.com/unprogramable/dotfiles.git ~/.vim
 ```
 
-3.**for neovim run this command**
+3.**for neovim**
 ```bash
 ln -s ~/.vim ~/.config/nvim
 cp ~/.vim/conf.example.vim ~/.vim/init.vim
 ```
 
-4.**copy config file**
+3.**for vim:**
 ```bash
 cp ~/.vim/conf.example.vim ~/.vim/vimrc
 ```
 
-5.**install plugins**
+4.**install plugins**
 
 *run vim and run this command in normal mode*
 ```bash
 :PlugInstall
 ```
 
-6.**restart and done**
+5.**restart and done**
 
 
 ## docs for keybindings
