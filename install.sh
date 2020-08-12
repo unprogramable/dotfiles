@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 # variables
-exm_conf="~/.vim/conf.example.vim"
-repo="https://github.com/unprogramable/dotfiles.git"
+exm_conf=~/.vim/conf.example.vim
+repo='https://github.com/unprogramable/dotfiles.git'
 tick="\033[0;32m[+]>\033[1;33m"
 
 # 1
 # back up old configs
 echo -e "$tick backup old configs ~/.vim, ~/.config/nvim"
-mv ~/.vim       ~/.vim.bk
+mv ~/.vim         ~/.vim.bk
 mv ~/.config/nvim ~/.config/nvim.bk
 
 # 2
