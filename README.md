@@ -11,7 +11,7 @@
 ## install
 
 ```bash
-curl -L "https://raw.githubusercontent.com/unprogramable/dotfiles/master/install.sh" | bash 
+curl -s -L "https://raw.githubusercontent.com/unprogramable/dotfiles/master/install.sh" | bash 
 ```
 
 

@@ -36,5 +36,5 @@ fi
 
 
 # 4
-echo "installation done."
+echo -e "$tick installation done."
 
