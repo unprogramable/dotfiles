@@ -22,7 +22,7 @@ if [[ $(which vim 2>/dev/null) ]];then
     echo -e "$tick set config for vim"
     cp ~/.vim/ex-conf.vim ~/.vim/vimrc
     # download extensions
-    vim +PlugInstall +qall
+    vim +PlugInstall +qall & :
 
 fi
 
@@ -31,7 +31,7 @@ if [[ $(which nvim 2>/dev/null) ]];then
     ln -s ~/.vim ~/.config/nvim
     cp ~/.vim/ex-conf.vim ~/.vim/init.vim
     # download extensions
-    nvim +PlugInstall +qall
+    nvim +PlugInstall +qall & :
 fi
 
 
