@@ -17,21 +17,20 @@ echo -e "$tick clone repo: \033[34m${repo}\033[m"
 git clone --depth 1 "$repo" ~/.vim
 
 # 3
-# copy vim/neovim config
+# set default config
+cp ~/.vim/ex-conf.vim ~/.vim/init.vim
+cp ~/.vim/ex-conf.vim ~/.vim/vimrc
+# link config for neovim
+ln -s ~/.vim ~/.config/nvim
+
+# download plugins
 if [[ $(which vim 2>/dev/null) ]];then
-    echo -e "$tick set config for vim"
-    cp ~/.vim/ex-conf.vim ~/.vim/vimrc
-    # download extensions
     vim +PlugInstall +qall & :
-
-fi
-
-if [[ $(which nvim 2>/dev/null) ]];then
-    echo -e "$tick set config for neovim"
-    ln -s ~/.vim ~/.config/nvim
-    cp ~/.vim/ex-conf.vim ~/.vim/init.vim
-    # download extensions
+elif [[ $(which nvim 2>/dev/null) ]];then
     nvim +PlugInstall +qall & :
+else
+    echo -e "$tick cant Find neovim/vim for install plugins"
+    echo -e "$tick you can install plugins by command \033[32m :PlugInstall"
 fi
 
 
