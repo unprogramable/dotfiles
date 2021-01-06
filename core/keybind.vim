@@ -5,10 +5,10 @@ inoremap jk <esc>
 nnoremap gV `[v`]
 
 " force to stop using the arrow keys
-map <up>    <nop>
-map <down>  <nop>
-map <left>  <nop>
-map <right> <nop>
+"map <up>    <nop>
+"map <down>  <nop>
+"map <left>  <nop>
+"map <right> <nop>
 
 " Easy window navigation
 map <C-h> <C-w>h
@@ -41,11 +41,10 @@ nnoremap <leader>d dd
 nmap <leader>ev :e $MYVIMRC<CR>
 
 " Quickly Edit/Exit
-nmap <leader>qq :wq<CR>
-nmap <leader>ss :w <CR>
-nmap <leader>zz :q!<CR>
+nmap <leader>fq :wq<CR>
+nmap <leader>fs :w <CR>
+nmap <leader>wq :qa!<CR>
 
 " toggle between regular display and list display
 nmap <leader>l :set invlist<cr>
-set list
 set listchars=tab:>\ ,trail:X,extends:>,nbsp:#,space:.

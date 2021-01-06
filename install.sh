@@ -25,9 +25,9 @@ ln -s ~/.vim ~/.config/nvim
 
 # download plugins
 if [[ $(which vim 2>/dev/null) ]];then
-    vim +PlugInstall +qall & :
+    vim +PlugInstall +qa
 elif [[ $(which nvim 2>/dev/null) ]];then
-    nvim +PlugInstall +qall & :
+    nvim +PlugInstall +qa
 else
     echo -e "$tick cant Find neovim/vim for install plugins"
     echo -e "$tick you can install plugins by command \033[32m :PlugInstall"
